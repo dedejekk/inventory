@@ -33,7 +33,7 @@ Fitur ini mendukung CRUD barang, peminjaman, pengembalian, serta laporan bulanan
 ```
 /inventory
 │── config.php
-│── dashboard.php
+│── index.php
 │── crud_barang.php
 │── pinjam.php
 │── pengembalian.php
