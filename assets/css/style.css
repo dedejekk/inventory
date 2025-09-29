@@ -1,0 +1,154 @@
+/* Custom Style untuk Inventory App */
+
+/* Navbar */
+nav {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Sidebar dengan outline tipis */
+.sidebar {
+  width: 220px;
+  background-color: #ffffff;   
+  border-right: 1px solid #d1d5db; /* outline kanan tipis abu-abu */
+  padding: 1rem;
+  min-height: calc(100vh - 64px); 
+}
+
+.sidebar-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0f2a1d;
+  margin-bottom: 1rem;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 0.6rem 1rem;
+  border: 1px solid #e5e7eb; /* outline tipis tiap link */
+  border-radius: 6px;
+  color: #0f2a1d;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.sidebar-link:hover {
+  background-color: #f0fdf4; /* hijau sangat muda */
+  border-color: #6b9071;
+}
+
+.sidebar-link.active {
+  background-color: #6b9071;
+  color: white;
+  border-color: #0f2a1d;
+  font-weight: bold;
+}
+
+/* Table Hover */
+table tbody tr:hover {
+  background-color: #e0f7fa;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Badge Status */
+.status-tersedia {
+  background-color: #16a34a; /* hijau */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.status-dipinjam {
+  background-color: #dc2626; /* merah */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+
+/* CRUD 
+
+/* Navbar */
+nav {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Card style (untuk form tambah & edit) */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #00b4d8;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background-color: #e0f7fa;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button umum */
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #00b4d8;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0096c7;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+/* Badge Status */
+.status-tersedia {
+  background-color: #16a34a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.status-dipinjam {
+  background-color: #dc2626;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
